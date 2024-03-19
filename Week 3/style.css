@@ -1,0 +1,32 @@
+* {
+  color: rgb(150, 16, 83);
+}
+
+h4 {
+  color: rgb(125, 177, 169);
+}
+
+span {
+  color: plum;
+}
+
+.my-colors {
+  color: lightgreen;
+}
+
+#venue {
+  color: red;
+}
+
+[data-email="email"] {
+  color: plum;
+}
+
+ul > li {
+  color: rgb(201, 98, 141);
+}
+
+body {
+  text-align: center;
+  /* used for alignment, sizing */
+  border: 3px solid peachpuff
