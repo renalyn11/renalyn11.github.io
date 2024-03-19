@@ -1,5 +1,6 @@
 * {
   color: rgb(150, 16, 83);
+  font-family: "Madimi One", sans-serif;
 }
 
 h4 {
@@ -8,25 +9,77 @@ h4 {
 
 span {
   color: plum;
+  font-family: "Zilla Slab Highlight", serif;
+  line-height: 2.5;
+}
+
+h2 {
+  color: brown;
+  font-size: 1.2rem;
+  line-height: 2.5;
 }
 
 .my-colors {
-  color: lightgreen;
-}
-
-#venue {
-  color: red;
+  color: rgb(97, 50, 29);
 }
 
 [data-email="email"] {
-  color: plum;
+  color: rgb(62, 144, 123);
 }
 
 ul > li {
   color: rgb(201, 98, 141);
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 body {
   text-align: center;
   /* used for alignment, sizing */
-  border: 3px solid peachpuff
+  /* border: 3px solid peachpuff; */
+  background-image: linear-gradient(
+    to bottom,
+    #e5fff9,
+    #ebfff6,
+    #f0fff4,
+    #f5fef3,
+    #fafef4,
+    #fbfdf2,
+    #fdfbf1,
+    #fefaf0,
+    #fef7eb,
+    #fef4e7,
+    #fef0e3,
+    #ffeddf
+  );
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 0.8;
+  font-family: "Monofett";
+}
+
+.zilla-slab highlight-regular {
+  font-family: "Zilla Slab Highlight", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.monofett-regular {
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
